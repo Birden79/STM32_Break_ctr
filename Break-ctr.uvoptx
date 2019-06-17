@@ -78,6 +78,33 @@
         <IsCurrentTarget>1</IsCurrentTarget>
       </OPTFL>
       <CpuCode>18</CpuCode>
+      <Books>
+        <Book>
+          <Number>0</Number>
+          <Title>Quick Start Guide (MCBSTM32C)</Title>
+          <Path>d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Boards\Keil\MCBSTM32C\Documentation\STM32C_QSG.pdf</Path>
+        </Book>
+        <Book>
+          <Number>1</Number>
+          <Title>Base Board Schematics (MCBSTM32C)</Title>
+          <Path>d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Boards\Keil\MCBSTM32C\Documentation\mcbstm32c-base-board-schematics.pdf</Path>
+        </Book>
+        <Book>
+          <Number>2</Number>
+          <Title>Display Board Schematics (MCBSTM32C)</Title>
+          <Path>d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Boards\Keil\MCBSTM32C\Documentation\mcbstm32c-display-board-schematics.pdf</Path>
+        </Book>
+        <Book>
+          <Number>3</Number>
+          <Title>User Manual (MCBSTM32C)</Title>
+          <Path>d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Boards\Keil\MCBSTM32C\Documentation\mcbstm32c.chm</Path>
+        </Book>
+        <Book>
+          <Number>4</Number>
+          <Title>MCBSTM32C Evaluation Board Web Page (MCBSTM32C)</Title>
+          <Path>http://www.keil.com/mcbstm32c/</Path>
+        </Book>
+      </Books>
       <DebugOpt>
         <uSim>0</uSim>
         <uTrg>1</uTrg>
@@ -239,16 +266,11 @@
       <LintExecutable></LintExecutable>
       <LintConfigFile></LintConfigFile>
       <bLintAuto>0</bLintAuto>
+      <Lin2Executable></Lin2Executable>
+      <Lin2ConfigFile></Lin2ConfigFile>
+      <bLin2Auto>0</bLin2Auto>
       <bAutoGenD>0</bAutoGenD>
-      <LntExFlags>0</LntExFlags>
-      <pMisraName></pMisraName>
-      <pszMrule></pszMrule>
-      <pSingCmds></pSingCmds>
-      <pMultCmds></pMultCmds>
-      <pMisraNamep></pMisraNamep>
-      <pszMrulep></pszMrulep>
-      <pSingCmdsp></pSingCmdsp>
-      <pMultCmdsp></pMultCmdsp>
+      <bAuto2GenD>0</bAuto2GenD>
       <SystemViewers>
         <Entry>
           <Name>System Viewer\AFIO</Name>
@@ -386,7 +408,7 @@
 
   <Group>
     <GroupName>::Device</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>1</RteFlg>
