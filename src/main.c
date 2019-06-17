@@ -15,8 +15,8 @@ static uint16_t keyb, kcnt;
 #define FL_CHECK				(0x0002)
 #define FL_ACCEL_ALARM			(0x0008)
 
-#define BUF_SIZE		(100)
-#define CHECK_FREQ		(100)			// Частота измерений, Гц
+#define BUF_SIZE				(100)
+#define CHECK_FREQ				(100)			// Frequency of encoder check, Hz
 
 void BufStore(uint16_t val)
 {
